@@ -1,0 +1,5 @@
+def prime(n):
+    if (math.factorial(n-1)+1) % n!=0:
+        print ("Это составное число")
+    else:
+        print ("Это простое число")
